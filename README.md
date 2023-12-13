@@ -5,7 +5,7 @@ The input to this algorithm is a full-sized graph constructed by mapping gene ex
 
 This creates a node table for each cell line. The PPI serves as the edge table for all the full-sized graphs. ```./Dataset/full_sized_graph/NodeTable_22RV1.csv``` shows the node table of cell line 22RV1 as an example.
 ## Graph reduction
-To perform graph redcution, 
+To perform graph redcution, run ```python two_set_graph_reduction.py instances_list.csv```
 
 
 
