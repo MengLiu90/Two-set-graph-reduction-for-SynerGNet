@@ -1,4 +1,3 @@
-ppi_maxSubG.csv is the PPI network extracted from IHP-PPI network by applying 0.7 cutoff, i.e., interactions with a confidence score of ≥ 0.7 were selected. 
-All the proteins are connected in ppi_maxSubG.csv.
+ppi_maxSubG.csv is the PPI network extracted from IHP-PPI network by applying 0.7 cutoff, i.e., interactions with a confidence score of ≥ 0.7 were selected. All the proteins are connected in ppi_maxSubG.csv.
 
 uni_protein.csv contains the names of the proteins involved in the ppi_maxSubG.csv.
