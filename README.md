@@ -8,11 +8,18 @@ Each full-sized graph is represented by two parts: a node table and an edge tabl
 The format of a node table:
 | Nodes         | Feature_1 | Feature_2 | ... |Feature_m |
 | ------------- | ----------|---------- | ----|----------|
-| Protein ID 1  | x1_1      |x1_2       | ... |x1_m      |
-| Protein ID 2  | x2_1      |x2_2       | ... |x2_m      |
+| UNiprot ID 1  | x1_1      |x1_2       | ... |x1_m      |
+| UNiprot ID 2  | x2_1      |x2_2       | ... |x2_m      |
 | ...           | ...       |...        | ... |...       |
-| Protein ID n  | xn_1      |xn_2       | ... |xn_m      |
+| UNiprot ID n  | xn_1      |xn_2       | ... |xn_m      |
 
+The format of an edge table:
+| Node1 ID   | Node2 ID  | Edge score | 
+| ---------- | ----------|----------  | 
+| UNiprot 1  | UNiprot 2 |xxx         | 
+| UNiprot 1  | UNiprot 3 |xxx         | 
+| ...        | ...       |...         | 
+| UNiprot n  | UNiprot k |xxx         |
 
 ```./Dataset/full_sized_graph/NodeTable_22RV1.csv``` shows the node table of cell line 22RV1 as an example. ```./Dataset/ppi_maxSubG.csv``` provides the PPI base graph.
 ## Graph reduction
