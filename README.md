@@ -6,10 +6,14 @@ The input to this algorithm is a full-sized graph constructed by mapping gene ex
 Each full-sized graph is represented by two parts: a node table and an edge table. 
 
 The format of a node table:
-| Nodes         | Feature_1 |
-| ------------- | ----------|
-| Protein ID 1  | x1_1      |
-| Protein ID 2  | x2_1      |
+| Nodes         | Feature_1 | Feature_2 | ... |Feature_m |
+| ------------- | ----------|---------- | ----|----------|
+| Protein ID 1  | x1_1      |x1_2       | ... |x1_m      |
+| Protein ID 2  | x2_1      |x2_2       | ... |x2_m      |
+| ...           | ...       |...        | ... |...       |
+| Protein ID n  | xn_1      |xn_2       | ... |xn_m      |
+
+
 ```./Dataset/full_sized_graph/NodeTable_22RV1.csv``` shows the node table of cell line 22RV1 as an example. ```./Dataset/ppi_maxSubG.csv``` provides the PPI base graph.
 ## Graph reduction
 To perform graph redcution, run ```python two_set_graph_reduction.py instances_list.csv```. The node tables, edge tables and statistics of the reduced graph can be found in ```./Dataset/ReducedGraphs/``` directory.
