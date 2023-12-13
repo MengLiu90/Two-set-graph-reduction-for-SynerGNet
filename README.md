@@ -21,7 +21,7 @@ The format of an edge table:
 | ...        | ...       |...         | 
 | UNiprot n  | UNiprot k |xxx         |
 
-```./Dataset/full_sized_graph/NodeTable_22RV1.csv``` shows the node table of cell line 22RV1 as an example. ```./Dataset/ppi_maxSubG.csv``` provides the PPI base graph.
+```./Dataset/full_sized_graph/NodeTable_22RV1.csv``` shows the node table of cell line 22RV1 as an example. ```./Dataset/ppi_maxSubG.csv``` provides the PPI base graph, which serves as the edge table for the full-sized graphs.
 ## Graph reduction
 To perform graph redcution, run ```python two_set_graph_reduction.py instances_list.csv```. The node tables, edge tables and statistics of the reduced graph can be found in ```./Dataset/ReducedGraphs/``` directory.
 ## Output graph
