@@ -4,4 +4,4 @@ uni_protein.csv contains the names of the proteins involved in the ppi_maxSubG.c
 
 instances_list.csv gives an example of synergy instance in the format of cell_drug1_drug2. 
 
-full_sized_graph contains node table of the full sized graph created for cell line 22RV1. It was divided into three parts because of the file size limit of github.
+full_sized_graph contains node table of the full sized graph created for cell line 22RV1. It was divided into three parts because of the size limit of github files.
