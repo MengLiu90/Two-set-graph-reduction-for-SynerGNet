@@ -2,7 +2,7 @@
 Two set graph reduction is a tool to create reduced graphs from the full-sized graphs.
 ## Dependencies
 1. Networkx 2.7.1
-2. Pandas 1.4.2
+2. Pandas 1.1.3
 ## Input graph
 The input to this algorithm is a full-sized graph constructed by mapping gene expression, copy number variation, mutation, drug-protein association score and gene ontology terms onto the PPI network. The proteins are represented as nodes in the graph and the interactions between them are denoted as edges.
 
